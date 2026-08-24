@@ -1,2 +1,2 @@
 # python-loops-program
-this is all programme in python
+this is all programme in python for beginners
