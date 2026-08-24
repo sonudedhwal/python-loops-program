@@ -1,0 +1,81 @@
+1. For Loop
+Write a Python program using a for loop to print odd numbers from 1 to 20.
+
+A = 20
+for i in range(1, 21):
+ if i % 3 == 0:
+  print(i)
+     
+output-
+3
+6
+9
+12
+15
+18
+
+
+
+2. While Loop
+Write a Python program using a while loop to print numbers from 10 down to 1.
+
+a = 10
+while a >= -10:
+    print(a)
+    a -= 1  
+output-
+10
+9
+8
+7
+6
+5
+4
+2
+1
+0
+-1
+-6
+-8
+-10
+ 
+
+3. Break
+Write a program that prints numbers from 1 to 10, but stops the loop when the number reaches 6.
+
+a = 10
+for i  in range( 1, 11):
+ if i +1 == 6:
+    break
+ print(i)
+
+output-1
+       2
+       3
+       4
+
+
+Use break.
+
+4. Continue
+Write a program that prints numbers from 1 to 10, but skips the number 5.
+
+a = 10
+for i  in range( 1, 11):
+ if i +1 == 6:
+    continue
+ print(i)
+
+output-
+1
+2
+3
+4
+6
+7
+8
+9
+10
+
+
+Use continue.
